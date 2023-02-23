@@ -1,0 +1,118 @@
+{
+    "sourceFile": "style.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 25,
+            "patches": [
+                {
+                    "date": 1677162248826,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1677162275091,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,11 +12,9 @@\n     padding: 10px;\n     max-width: 320%;\n     font-size: 20px;\n     color: white;\n-   \n-\n-\n+    margin-left: 40px;\n  }\n .signup-box {\n     width: 460px;\n     height: 620px;\n"
+                },
+                {
+                    "date": 1677162558089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n     display: flex;\n }\n header a {\n     text-decoration: none;\n-    padding: 10px;\n+    padding-left: 10px;\n     max-width: 320%;\n     font-size: 20px;\n     color: white;\n     margin-left: 40px;\n"
+                },
+                {
+                    "date": 1677162606397,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,8 @@\n }\n header a {\n     text-decoration: none;\n     padding-left: 10px;\n-    max-width: 320%;\n     font-size: 20px;\n     color: white;\n     margin-left: 40px;\n  }\n"
+                },
+                {
+                    "date": 1677162656071,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,9 @@\n     text-decoration: none;\n     padding-left: 10px;\n     font-size: 20px;\n     color: white;\n-    margin-left: 40px;\n+    margin-left: 60px;\n  }\n .signup-box {\n     width: 460px;\n     height: 620px;\n"
+                },
+                {
+                    "date": 1677162787956,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n * {\n     box-sizing: border-box;\n }\n body {\n-    background-image: url(IMG_9728.JpG);\n+    background-image: url(IMG_9737.JPG);\n }\n nav {\n     display: flex;\n }\n"
+                },
+                {
+                    "date": 1677162836094,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n .signup-box {\n     width: 460px;\n     height: 620px;\n     margin: auto;\n-    background-color: darkturquoise;\n+    background-color: lightslategray;\n     border-radius: 10px;\n }\n h1 {\n     text-align: center;\n"
+                },
+                {
+                    "date": 1677164100398,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n * {\n     box-sizing: border-box;\n }\n body {\n-    background-image: url(IMG_9737.JPG);\n+    background-image: url(IMG_9739.JPG);\n }\n nav {\n     display: flex;\n }\n@@ -17,9 +17,9 @@\n .signup-box {\n     width: 460px;\n     height: 620px;\n     margin: auto;\n-    background-color: lightslategray;\n+    background-color:#ffffff;\n     border-radius: 10px;\n }\n h1 {\n     text-align: center;\n@@ -29,9 +29,9 @@\n     text-align: center;\n }\n form {\n      width: 300px;\n-     margin-left: 40px;\n+     margin-left: 60px;\n }\n form label {\n      display: flex;\n      font-size: 18px;\n"
+                },
+                {
+                    "date": 1677164296008,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,11 @@\n }\n nav {\n     display: flex;\n }\n+header img {\n+    padding: 20px;\n+}\n header a {\n     text-decoration: none;\n     padding-left: 10px;\n     font-size: 20px;\n"
+                },
+                {
+                    "date": 1677164342856,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n nav {\n     display: flex;\n }\n header img {\n-    padding: 20px;\n+  margin-left: 40px;\n }\n header a {\n     text-decoration: none;\n     padding-left: 10px;\n"
+                },
+                {
+                    "date": 1677164427514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n .signup-box {\n     width: 460px;\n     height: 620px;\n     margin: auto;\n-    background-color:#ffffff;\n+    background-color:#fff6;\n     border-radius: 10px;\n }\n h1 {\n     text-align: center;\n"
+                },
+                {
+                    "date": 1677164913962,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,10 @@\n * {\n     box-sizing: border-box;\n }\n body {\n-    background-image: url(IMG_9739.JPG);\n+    background-image: url(IMG_9728.JPG);\n+    background-size: cover;\n }\n nav {\n     display: flex;\n }\n"
+                },
+                {
+                    "date": 1677165523199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     text-decoration: none;\n     padding-left: 10px;\n     font-size: 20px;\n     color: white;\n-    margin-left: 60px;\n+    margin-right: 60px;\n  }\n .signup-box {\n     width: 460px;\n     height: 620px;\n"
+                },
+                {
+                    "date": 1677165730068,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     text-decoration: none;\n     padding-left: 10px;\n     font-size: 20px;\n     color: white;\n-    margin-right: 60px;\n+    margin-right: 1000px;\n  }\n .signup-box {\n     width: 460px;\n     height: 620px;\n"
+                },
+                {
+                    "date": 1677165759823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n     text-decoration: none;\n     padding-left: 10px;\n     font-size: 20px;\n     color: white;\n-    margin-right: 1000px;\n+    margin-block-end: 100px;\n  }\n .signup-box {\n     width: 460px;\n     height: 620px;\n"
+                },
+                {
+                    "date": 1677165809151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,8 +7,11 @@\n }\n nav {\n     display: flex;\n }\n+nav a {\n+    padding: 40px;\n+}\n header img {\n   margin-left: 40px;\n }\n header a {\n"
+                },
+                {
+                    "date": 1677166205092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n     text-decoration: none;\n     padding-left: 10px;\n     font-size: 20px;\n     color: white;\n-    margin-block-end: 100px;\n+    nav-right: 40px;\n  }\n .signup-box {\n     width: 460px;\n     height: 620px;\n"
+                },
+                {
+                    "date": 1677166590472,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,9 @@\n     padding-left: 10px;\n     font-size: 20px;\n     color: white;\n     nav-right: 40px;\n+    text-align: right;\n  }\n .signup-box {\n     width: 460px;\n     height: 620px;\n"
+                },
+                {
+                    "date": 1677166653324,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,15 +13,15 @@\n }\n header img {\n   margin-left: 40px;\n }\n-header a {\n+nav a {\n     text-decoration: none;\n     padding-left: 10px;\n     font-size: 20px;\n     color: white;\n     nav-right: 40px;\n-    text-align: right;\n+    text-align: ;\n  }\n .signup-box {\n     width: 460px;\n     height: 620px;\n"
+                },
+                {
+                    "date": 1677166687934,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,11 +7,9 @@\n }\n nav {\n     display: flex;\n }\n-nav a {\n-    padding: 40px;\n-}\n+\n header img {\n   margin-left: 40px;\n }\n nav a {\n@@ -19,9 +17,9 @@\n     padding-left: 10px;\n     font-size: 20px;\n     color: white;\n     nav-right: 40px;\n-    text-align: ;\n+    text-align:right ;\n  }\n .signup-box {\n     width: 460px;\n     height: 620px;\n"
+                },
+                {
+                    "date": 1677167510794,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,11 +4,19 @@\n body {\n     background-image: url(IMG_9728.JPG);\n     background-size: cover;\n }\n-nav {\n-    display: flex;\n+.navbar ul {\n+    margin: auto;\n+    text-align: right;\n }\n+.navbar li {\n+    display: inline-block;\n+}\n+.navbar a {\n+    text-decoration: none;\n+    padding: 15px;\n+}\n \n header img {\n   margin-left: 40px;\n }\n"
+                },
+                {
+                    "date": 1677167573363,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,8 +14,12 @@\n }\n .navbar a {\n     text-decoration: none;\n     padding: 15px;\n+    font-size: 20px;\n+    font-weight: bold;\n+    font-family: Arial, Helvetica, sans-serif;\n+    margin-right: 10px;\n }\n \n header img {\n   margin-left: 40px;\n"
+                },
+                {
+                    "date": 1677167598399,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,8 +18,9 @@\n     font-size: 20px;\n     font-weight: bold;\n     font-family: Arial, Helvetica, sans-serif;\n     margin-right: 10px;\n+    color: whitesmoke;\n }\n \n header img {\n   margin-left: 40px;\n"
+                },
+                {
+                    "date": 1677167668995,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,10 +14,11 @@\n }\n .navbar a {\n     text-decoration: none;\n     padding: 15px;\n-    font-size: 20px;\n+    font-size: 20px 15px;\n     font-weight: bold;\n+    width: 100px;\n     font-family: Arial, Helvetica, sans-serif;\n     margin-right: 10px;\n     color: whitesmoke;\n }\n"
+                },
+                {
+                    "date": 1677167774379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,10 +13,11 @@\n     display: inline-block;\n }\n .navbar a {\n     text-decoration: none;\n-    padding: 15px;\n-    font-size: 20px 15px;\n+    padding: 20px;\n+    margin-bottom: 10px;\n+    font-size: 15px;\n     font-weight: bold;\n     width: 100px;\n     font-family: Arial, Helvetica, sans-serif;\n     margin-right: 10px;\n"
+                },
+                {
+                    "date": 1677168187682,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n * {\n     box-sizing: border-box;\n }\n body {\n-    background-image: url(IMG_9728.JPG);\n+    background-image: url(IMG_9744.JPG);\n     background-size: cover;\n }\n .navbar ul {\n     margin: auto;\n"
+                }
+            ],
+            "date": 1677162248826,
+            "name": "Commit-0",
+            "content": "* {\n    box-sizing: border-box;\n}\nbody {\n    background-image: url(IMG_9728.JpG);\n}\nnav {\n    display: flex;\n}\nheader a {\n    text-decoration: none;\n    padding: 10px;\n    max-width: 320%;\n    font-size: 20px;\n    color: white;\n   \n\n\n }\n.signup-box {\n    width: 460px;\n    height: 620px;\n    margin: auto;\n    background-color: darkturquoise;\n    border-radius: 10px;\n}\nh1 {\n    text-align: center;\n    padding-top: 15px;\n}\nh4 {\n    text-align: center;\n}\nform {\n     width: 300px;\n     margin-left: 40px;\n}\nform label {\n     display: flex;\n     font-size: 18px;\n     margin-top: 20px;\n}\nform input {\n    width: 100%;\n    border: none;\n    padding: 7px;\n    border-radius: 8px;\n    outline: none;\n    border: 1px brown;\n\n}\ninput[type=\"button\"]{\n    width: 300px;\n    height: 35px;\n    margin-top: 20px;\n    border: none;\n    color: blue;\n    background-color:lightblue;\n    font-size: 15px;\n}\np{\n    text-align: center;\n}\n\n"
+        }
+    ]
+}
